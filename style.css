@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    border-radius: 15px;
+}
+
+.content {
+    padding: 20px;
+}
+
+img {
+    width:100%;
+    border-radius: 15px;
+}
+
+.content h3 {
+    color: hsl(0, 0%, 100%);
+    margin-top: 15px;
+}
+
+.content p {
+    color: hsl(215, 51%, 70%);
+    margin-top: 15px;
+}
+
+#eth-clock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.eth {
+    width: 10px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px; 
+}
+
+.eth .icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.eth p {
+    margin: auto;
+    color: hsl(178, 100%, 50%);
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.clock .icon {
+   width: 15px;
+   height: 15px;
+   margin-right: 5px;
+}
+
+.clock p {
+    margin: auto;
+}
+
+hr {
+    margin-top: 15px;
+     border-color: hsl(215, 32%, 27%);
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.name img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.name p {
+    margin: auto;
+}
+
+#name {
+    color: hsl(0, 0%, 100%);
+}
+
+h3:hover, #name:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
